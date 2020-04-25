@@ -20,6 +20,11 @@ diet:'carnivorous',
 weight:'7000kg',
 height:'12m',
 period:'Late Cretaceous',
+sound: function(){
+  return `RAWERSRARARWERSARARARRRR!`
+
+  }
+
 };
 
 const dinoTwo={
@@ -28,6 +33,7 @@ const dinoTwo={
   weight:'2000kg',
   height:'9m',
   period:'Late Jurassic',
+
 };
 
 const dinoThree={
@@ -40,20 +46,20 @@ const dinoThree={
 
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(dinoOne.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(dinoThree.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(dinoTwo.height);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(dinoOne.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(dinoOne.sound());
 
 
 // ==== Arrays ====
@@ -75,8 +81,15 @@ const graduates = [
 
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
+
+
 Once you have the new array created, log the result. */
 const universities = [];
+graduates.forEach(function(item){
+  return universities.push(`${item.university}`)
+});
+ 
+
 console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
