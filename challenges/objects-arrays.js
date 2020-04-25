@@ -14,6 +14,31 @@
 
 // Using your dinosaur objects, log answers to these questions:
 
+const dinoOne={
+name:'tyrannosaurus',
+diet:'carnivorous',
+weight:'7000kg',
+height:'12m',
+period:'Late Cretaceous',
+};
+
+const dinoTwo={
+  name:'stegosaurus',
+  diet:'herbivorous',
+  weight:'2000kg',
+  height:'9m',
+  period:'Late Jurassic',
+};
+
+const dinoThree={
+  name:'Velociraptor',
+  diet:'carnivorous',
+  weight:'15kg',
+  height:'1.8m',
+  period:'Late Cretaceous',
+}
+
+
 // How much did tyrannosaurus weigh?
 console.log();
 
