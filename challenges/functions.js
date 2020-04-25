@@ -40,6 +40,7 @@ const greeting=(a, b)=>{
 // Explain in your own words why nestedfunction can access the variable internal.
 
 // Explanation: 
+/*nestedfunction can acess the variable internal because the function is using a closure which allows access to the variable internal even though it is inside of another function and has been closed */ 
 
 
 const external = "I'm outside the function";
